@@ -1,0 +1,137 @@
+ {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: hwb(0 48% 49%);
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position-y: center;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #5798e2;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+button {
+  background-color: #05881b;
+  color: #1d3804;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4c4ec7;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #333;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav a {
+  color: #fff;
+}
+
+/* Section Styles */
+
+section {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#home {
+  background-image: url('C:\Users\User\Pictures\img1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+
+
+
+#about, #services, #portfolio, #contact {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/* Gallery Styles */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 30%;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form Styles */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
